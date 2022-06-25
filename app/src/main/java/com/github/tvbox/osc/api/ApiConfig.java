@@ -81,7 +81,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://wp.wangshi520.com/down.php/2e94bba1751080b8daf5d729d536c388.txt");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://github.com/YuanHsing/freed/raw/master/TVBox/meow.json");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
